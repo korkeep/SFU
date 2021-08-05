@@ -97,9 +97,3 @@ $ ./src/build/bin/opt -load ./src/build/lib/LLVMObfuscation.so -preprocess Updat
 $ ./src/build/bin/opt -load ./src/build/lib/LLVMObfuscation.so -rof Updater.ll -o Updater.ll
 $ .{PATH}/Updater .{PATH}/enFW
 ```
-
-### Encryption Check: boot vs documentation
-#### /update_test/boot/ vs /update_test_origin/boot/
-> ![boot](https://user-images.githubusercontent.com/20378368/127704640-7f30ac6d-8cb5-4b10-814f-804c9eb6abcc.PNG)
-#### /update_test/documentation/ vs /update_test_origin/documentation/
-> ![docuementation](https://user-images.githubusercontent.com/20378368/127704648-919e22fa-1d02-4872-87e2-2ed84f631aa6.PNG)
