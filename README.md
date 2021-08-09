@@ -95,5 +95,5 @@ $ python3 makeFW.py
 $ ./src/build/bin/clang -emit-llvm -c -S Updater.c -o Updater.ll
 $ ./src/build/bin/opt -load ./src/build/lib/LLVMObfuscation.so -preprocess Updater.ll -o Updater.ll
 $ ./src/build/bin/opt -load ./src/build/lib/LLVMObfuscation.so -rof Updater.ll -o Updater.ll
-$ .{PATH}/Updater .{PATH}/enFW
+$ ./Updater ./enFW
 ```
