@@ -11,7 +11,7 @@
 - [ ] Symmetric Key를 사용자의 Public Key로 암호화 (미완)
 - [x] 암호화된 FW Hash & 암호화된 FW & 암호화된 Symmetric Key → tar로 묶기
 
-### Obfuscation
+#### Obfuscation
 - [x] LLVM Compiler를 이용한 Updater Obfuscation
 
 #### Updater
